@@ -10,6 +10,38 @@
 	background: #333;
 }
 
-* {
-  border-radius: 0 !important;
+
+.myPanel{
+	margin: 3%;
+	border-radius: 5px;
+	border: 1px solid#687d6d;
+	box-shadow: 0px 0px 4px #ccc;
+}
+
+.myPanel .header{
+	background: #b6f0c4;
+	padding: 10px 20px;
+	border-radius: 5px 5px 0px 0px;
+	color: #687d6d;
+}
+
+.navbar-inverse{
+	border-radius: 0 !important;
+}
+
+.myPanel .body{
+	padding: 10px 20px;
+}
+
+.myPanel .showOnHover{
+	display: none;
+}
+
+.myPanel:hover .showOnHover{
+	display: inline-block;
+}
+
+.myPanel:hover{
+	box-shadow: 0px 0px 8px black;
+	border:2px solid#687d6d;
 }
